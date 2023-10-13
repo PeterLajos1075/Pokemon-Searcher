@@ -9,8 +9,7 @@ const NavBar = () => {
             <Bar
                 style={{
                     backgroundColor:"orange",
-                    padding: "20px",
-                    height: "70px",
+                    height: "80px",
                 }}
                 design="FloatingFooter"
                 endContent={<>
