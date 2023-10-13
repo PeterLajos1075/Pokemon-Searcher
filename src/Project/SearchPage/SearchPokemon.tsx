@@ -20,7 +20,7 @@ const SearchPokemon = () => {
         };
 
     return (
-        <div className="Pokemon">
+        <div>
         <FlexBox
             style={{
                 justifyContent:"center",
@@ -30,7 +30,7 @@ const SearchPokemon = () => {
         >
                 <Input
                     style={{
-                        width:"60%"
+                        width:"60%",
                     }}
                     onChange={(event) => {
                         setPokemonName(event.target.value || "'");

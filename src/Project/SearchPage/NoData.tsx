@@ -19,7 +19,7 @@ const NoData = () => {
             >
                 Keress rá egy Pokemonra a kereső segítségével
             </Text>
-            <img alt="logo" src="https://cdn141.picsart.com/316822369071211.png" style={{width: '80%'}}/>
+            <img alt="logo" src="https://cdn141.picsart.com/316822369071211.png" style={{width: '65%'}}/>
         </div>
     )
 }
