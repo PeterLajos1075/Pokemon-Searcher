@@ -56,16 +56,16 @@ const SearchPokemon = () => {
                             border:"2px solid",
                             borderRadius:"25px"
                          }}>
+
                         <h1>Neve: {pokemon.pokeName}
-                        <Button 
-                        style={{
-                            marginInline:"5px"
-                        }}
+
+                        <Button style={{marginInline:"5px"}}
                             icon="favorite"
                             //onClick={}
-                        />
-                        </h1>
+                        /></h1>
+
                         <h3>Tipusa: {pokemon.pokeType}</h3>
+                        
                         <img
                             className="img" 
                             src = {pokemon.pokeImage}
