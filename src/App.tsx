@@ -13,7 +13,7 @@ function App() {
             <Route index element={<SearchPokemon/>}/>
             <Route path="Favorites" element={<SavedPoke/>}/>
           </Route>
-        </Routes>        
+        </Routes>
       </>
   )
 }
