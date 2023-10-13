@@ -57,14 +57,14 @@ const SearchPokemon = () => {
                             borderRadius:"25px"
                          }}>
 
-                        <h1>Neve: {pokemon.pokeName}
+                        <h1 style={{textAlign:"center"}}>Neve: {pokemon.pokeName}
 
                         <Button style={{marginInline:"5px"}}
                             icon="favorite"
                             //onClick={}
                         /></h1>
 
-                        <h3>Tipusa: {pokemon.pokeType}</h3>
+                        <h3 style={{textAlign:"center"}}>Tipusa: {pokemon.pokeType}</h3>
                         
                         <img
                             className="img" 
